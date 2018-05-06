@@ -12,6 +12,10 @@
 		EE3C441C209E98C5007B56DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3C441B209E98C5007B56DC /* Assets.xcassets */; };
 		EE3C441F209E98C5007B56DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3C441D209E98C5007B56DC /* Main.storyboard */; };
 		EE3C4422209E98C5007B56DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C4421209E98C5007B56DC /* main.m */; };
+		EE3C442B209E9A34007B56DC /* Graphic.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C442A209E9A34007B56DC /* Graphic.m */; };
+		EE3C442E209E9A48007B56DC /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C442D209E9A48007B56DC /* Image.m */; };
+		EE3C4431209E9A65007B56DC /* ImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C4430209E9A65007B56DC /* ImageProxy.m */; };
+		EE3C4434209EA062007B56DC /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C4433209EA062007B56DC /* Window.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,14 @@
 		EE3C4420209E98C5007B56DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE3C4421209E98C5007B56DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE3C4423209E98C5007B56DC /* DesignPatterns_Proxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignPatterns_Proxy.entitlements; sourceTree = "<group>"; };
+		EE3C4429209E9A34007B56DC /* Graphic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graphic.h; sourceTree = "<group>"; };
+		EE3C442A209E9A34007B56DC /* Graphic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graphic.m; sourceTree = "<group>"; };
+		EE3C442C209E9A48007B56DC /* Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		EE3C442D209E9A48007B56DC /* Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		EE3C442F209E9A65007B56DC /* ImageProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageProxy.h; sourceTree = "<group>"; };
+		EE3C4430209E9A65007B56DC /* ImageProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageProxy.m; sourceTree = "<group>"; };
+		EE3C4432209EA062007B56DC /* Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		EE3C4433209EA062007B56DC /* Window.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +69,16 @@
 		EE3C4414209E98C5007B56DC /* DesignPatterns-Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				EE3C4429209E9A34007B56DC /* Graphic.h */,
+				EE3C442A209E9A34007B56DC /* Graphic.m */,
+				EE3C442C209E9A48007B56DC /* Image.h */,
+				EE3C442D209E9A48007B56DC /* Image.m */,
+				EE3C442F209E9A65007B56DC /* ImageProxy.h */,
+				EE3C4430209E9A65007B56DC /* ImageProxy.m */,
 				EE3C4415209E98C5007B56DC /* AppDelegate.h */,
 				EE3C4416209E98C5007B56DC /* AppDelegate.m */,
+				EE3C4432209EA062007B56DC /* Window.h */,
+				EE3C4433209EA062007B56DC /* Window.m */,
 				EE3C4418209E98C5007B56DC /* ViewController.h */,
 				EE3C4419209E98C5007B56DC /* ViewController.m */,
 				EE3C441B209E98C5007B56DC /* Assets.xcassets */,
@@ -140,9 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3C4431209E9A65007B56DC /* ImageProxy.m in Sources */,
+				EE3C4434209EA062007B56DC /* Window.m in Sources */,
 				EE3C441A209E98C5007B56DC /* ViewController.m in Sources */,
 				EE3C4422209E98C5007B56DC /* main.m in Sources */,
+				EE3C442B209E9A34007B56DC /* Graphic.m in Sources */,
 				EE3C4417209E98C5007B56DC /* AppDelegate.m in Sources */,
+				EE3C442E209E9A48007B56DC /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

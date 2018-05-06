@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Window.h"
+#import "ImageProxy.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +17,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    Window* win = [[Window alloc] init];
+    win.graphic = [[ImageProxy alloc] initWithFilename:@"image.jpg"];
+    
+    [win draw];
 }
 
 
